@@ -18,7 +18,8 @@
     <div class="col-xs-6 text-right text-uppercase h6 text-muted">{{ _("Grand Total") }}</div>
     <div class="col-xs-6 text-right">
         <span class="tax-grand-total bold">
-            {{ doc.get_formatted("grand_total") }}
+            <!-- {{ doc.get_formatted("grand_total") }} -->
+            {{ doc.get_formatted("rounded_total") }}
         </span>
     </div>
 </div>
